@@ -1,20 +1,19 @@
-\# ANN Based Prediction
+# ANN Based Prediction
 
+This project predicts Reflection Coefficient (Gamma) using Artificial Neural Networks.
 
+## Features
+- User input (ZL, Z0)
+- ML Prediction
+- Actual formula comparison
+- Web interface using Flask
 
-This project uses Artificial Neural Networks (MLP Regressor) to predict reflection coefficient (Gamma) based on ZL and Z0.
+## Tech Stack
+- Python
+- Flask
+- Scikit-learn
+- HTML/CSS
 
-
-
-\## Technologies
-
-\- Python
-
-\- Scikit-learn
-
-\- Pandas
-
-\- NumPy
-
-\- Matplotlib
-
+## Run the project
+pip install -r requirements.txt
+python app.py
